@@ -10,7 +10,7 @@ source("loadGADM.R")
 source("getCountries.R")
 
 
-#P{lace the files you downloaded from GADM in your WD
+#Place the files you downloaded from GADM in your WD, which we will refer to as baseurl
 baseurl <-"/Volumes/ifas/Emilio's Folder Current/RESEARCH/LatAmScience/multicountry_mapping"
 arg <- getCountries('ARG', baseurl)
 plot(arg)
